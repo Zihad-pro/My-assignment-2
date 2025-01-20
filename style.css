@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
 *{
 
   margin:0;
@@ -8,8 +11,128 @@
 /* nav section */
 
 
+.quicksand-uniquifier {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.nav-container{
+display:flex;
+padding:20px;
+justify-content: space-between;
+max-width: 1500px;
+/* justify-items: center; */
+align-items: center;
+margin:0 auto;
 
 
+
+
+}
+
+.nav-img{
+ display: flex;
+ align-items: center;
+ font-size: 22px;
+}
+
+.nav-text{
+display:flex;
+list-style: none;
+
+gap:60px;
+}
+.nav-text1{
+  font-weight: 700;
+  color:orange;
+font-size: 19px;
+}
+
+.nav-text2{
+  font-weight: 700;
+  color:skyblue;
+  font-size: 19px;
+
+}.nav-text3{
+  font-weight: 700;
+  color:rgba(5, 212, 223, 1);
+  font-size: 19px;
+
+}.nav-text4{
+  font-weight: 700;
+  color:rgba(93, 88, 239, 1);
+font-size: 19px;
+
+}
+
+
+#btn-c{
+  padding:18px 60px;
+background-color:orange;
+color:white;
+border:none;
+border-radius:8px;
+font-weight: 600;
+font-size:16px;
+ cursor: pointer;
+
+}
+.fa-solid{
+ font-size: 25px;
+ display: none;
+
+}
+
+.orange{
+  color: orange;
+}
+.skyblue{
+  color: rgb(7, 162, 223);
+}
+
+/* Banner section */
+.banner-container{
+display:flex;
+justify-content: space-around;
+align-items: center;
+padding:0px;
+
+}
+.banner-title{
+  font-weight:800px;
+  font-size: 35px;
+  padding-bottom: 35px;
+}
+
+.banner-subtitle{
+  font-weight:500;
+  padding-bottom: 35px;
+}
+.enroll-btn1{
+  background-color: black;
+  color:white;
+  padding:20px 55px;
+  border:none;
+  border-radius:10px;
+  cursor: pointer;
+  font-weight: 750;
+
+}
+
+.banner-right img{
+  width:100%;
+}
+
+
+
+
+.banner-left{
+/* padding-right: 150px; */
+/* width:820px; */
+
+
+}
 
 
 
@@ -67,13 +190,49 @@
 
 
 @media screen and (max-width:570px){
+.nav-btn,.nav-text,.school{
+  display:none;
+}
+.nav-container{
+  border-bottom: 1px solid rgb(255, 190, 69) ;
 
-
+}
+.fa-solid{
+  display:block ;
+}
+.banner-container{
+  flex-direction:column-reverse;
+  padding: 20px;
+ 
+  
+}
+.banner-left{
+  padding-top: 50px;
+  max-width:350px;
+   justify-items: center;
+   
+   
+}
+.banner-title h1{
+font-size:30px;
+padding-right: 30px;
+ 
+}
+.banner-subtitle{
+  font-size: 13px;
+}
+.banner-title,.banner-subtitle{
+  padding-left: 20px;
+ 
+}
+.enroll-btn1{
+  padding: 20px 40px;
+}
 
 
 }
 
-
+/* Standard Curriculum */
 
 
 
