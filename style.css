@@ -318,11 +318,12 @@ padding-right: 30px;
 .age-container{
 flex-direction: column;
 gap:20px;
-
+width: 100%;
 }
 .box-age1,.box-age2,.box-age3{
-  width: 350px;
-
+  width:90%;
+ 
+ 
 }
 .box-container h1{
 
